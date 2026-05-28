@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Muro | Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Instrument+Serif:ital@0;1&display=swap" 
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+                        <rect width='100' height='100' rx='10' fill='%231e1e2e'/>
+                        <text x='50' y='68' font-size='45' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%2360a5fa'>AM</text>
+                        </svg>">
+</head>
+<body>
+    <nav>
+        <a href="#projects">proyectos</a>
+        <a href="#contact">contacto</a>
+    </nav>
+    <header>
+        <img class="foto-perfil" src="Captura.jpg" alt="Alejandro Muro">
+        <h1>Alejandro Muro</h1>
+        <h2 id="titulo"></h2>
+        <p>Vengo del mundo del testing y ahora construyo lo que antes probaba. Analista QA aprendiendo desarrollo frontend para ofrecer software que funciona bien desde el primer día.</p>
+    </header>
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Soy Alejandro, analista QA con más de 2 años de experiencia trabajando con empresas como Norelian y Corpoeureka, donde desarrollé habilidades en análisis de requerimientos, diseño de casos de prueba, automatización con Postman y gestión de incidencias con Jira y Azure DevOps. </p>
+
+       <p>Actualmente estoy en transición hacia el desarrollo frontend, aprendiendo HTML, CSS y JavaScript para combinar mi visión de calidad con la capacidad de construir interfaces web modernas y funcionales. Mi experiencia en QA me da una ventaja única: entiendo cómo debe funcionar el software antes de escribir una sola línea de código.</p>
+        <div class="habilidades">
+            <span><i class="fa-brands fa-html5" style="color: #e34f26;"></i> HTML</span>
+            <span><i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i> CSS</span>
+            <span><i class="fa-brands fa-js" style="color: #f7df1e;"></i> JavaScript</span>
+            <span><i class="fa-brands fa-git-alt" style="color: #f05032;"></i> Git</span>
+            <span><i class="fa-solid fa-magnifying-glass" style="color: #60a5fa;"></i> QA Testing</span>
+        </div>
+    </section>   
+    <section id="projects">
+        <h2>proyectos</h2>
+        <div class="proyectos-grid">
+            <article class="tarjeta">
+                <img class="proyecto-img" src="weather.png" alt="clima">
+                <h3>Weather app</h3>
+                <p>App para ver clima de tu ciudad o pais</p>
+                <p>HTML | CSS | JavaScript</p>
+                <a class="btn" href="https://amuroqa.github.io/weather-app"><i class="fa-solid fa-globe"></i> Demo</a>
+                <a class="btn" href="https://github.com/amuroqa/weather-app"><i class="fa-brands fa-github"></i> GitHub</a>
+            </article>
+            <article class="tarjeta">
+                <img class="proyecto-img" src="taskFlow.png" alt="task Flow app">
+                <h3>TaskFlow</h3>
+                <p>App para crear buscar actualizar y eliminar tareas </p>
+                <p>HTML | CSS | JavaScript</p>
+                <a class="btn" href="#"><i class="fa-solid fa-globe"></i> Demo</a>
+                <a class="btn" href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+            </article>
+        </div>
+    </section>
+    <footer id="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes un proyecto en mente? Hablemos.</p>
+        <a class="btn" href="mailto:amuro8623@gmail.com">amuro8623@gmail.com</a>
+        <a class="btn" href="https://github.com/amuroqa"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/alejandro-muro-151422184" target="_blank">LinkedIn</a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
