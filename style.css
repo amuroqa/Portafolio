@@ -33,7 +33,6 @@ a{
     color:white;
 }
 
-
 header{
     background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('header-bg.jpg');
     background-size: cover;
@@ -96,6 +95,14 @@ section{
 footer{
     padding: 40px;
     text-align: center;
+}
+
+footer p:last-child{
+    margin-top: 10px;
+    color: #f0f0f0;;
+    font-size: 0.9rem;
+    
+    
 }
 
 .proyectos-grid {
