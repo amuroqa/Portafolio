@@ -1,16 +1,1 @@
-casos de uso y de prueba de PORTAFOLIO
-casos de uso
-portafolio
-proyectos
-contacto
-sobre mi
-casos de prueba
-ver portafolio
-ver proyectos
-ver demo de proyecto
-ver git hub del proyecto
-ver contacto
-enviar email
-ver git hub personal
-ver LinkedIn
-ver info sobre mi
+
