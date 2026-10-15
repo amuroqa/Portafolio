@@ -102,3 +102,27 @@
 - Se visualiza el texto "¿Tienes un proyecto en mente? Hablemos."
 - Se visualizan los botones "Correo", "GitHub" y "LinkedIn"
 - Se visualiza el copyright "© 2026 Alejandro Muro | Desarrollador Frontend" al final de la página
+
+## TC-08: Enviar email
+
+**Pasos:**
+1. Ingresa a https://amuroqa.github.io/Portafolio/
+2. Haz clic en "contacto" en la barra de navegación superior derecha
+3. Verifica que la página se desplace hasta la sección "Contacto"
+4. Haz clic en el botón "Correo" (amuro8623@gmail.com)
+5. Espera a que se abra el cliente de correo predeterminado
+6. Verifica que el campo "Para" tenga la dirección amuro8623@gmail.com
+7. Escribe un asunto y un mensaje de prueba
+8. Envía el correo
+9. Revisa la bandeja de entrada de amuro8623@gmail.com (y la de spam si no aparece)
+
+**Precondición:**
+- Tener un cliente de correo configurado en el equipo, o sesión iniciada en Gmail web
+
+**Resultado esperado:**
+- Se abre el cliente de correo con el campo "Para" completado con amuro8623@gmail.com
+- El correo se envía correctamente
+- El correo se recibe en la bandeja de amuro8623@gmail.com
+
+**Estado:** 🟡 Observación: en pruebas el correo llega a spam. El botón funciona, pero el filtrado del proveedor afecta la recepción.
+  
