@@ -125,4 +125,44 @@
 - El correo se recibe en la bandeja de amuro8623@gmail.com
 
 **Estado:** 🟡 Observación: en pruebas el correo llega a spam. El botón funciona, pero el filtrado del proveedor afecta la recepción.
-  
+
+## TC-09: Ver github personal
+
+**pasos:**
+1. ingresa a https://amuroqa.github.io/Portafolio/
+2. Haz clic en "contacto" en la barra de navegación superior derecha
+3. Verifica que la página se desplace hasta la sección "Contacto"
+4. Haz clic en el botón "GitHub"
+5. Espera a que se abra el GitHub personal
+
+**Resultado esperado:**
+- Se abre la URL https://github.com/amuroqa
+- El perfil de GitHub de amuroqa se visualiza correctamente
+- Se visualizan los repositorios del usuario, incluyendo Portafolio y weather-app-react
+
+**Estado:** 🟡 Observación: el botón abre en la misma pestaña en lugar de una nueva.
+
+## TC-10: Ver LinkedIn
+
+**Pasos:**
+1. Ingresa a https://amuroqa.github.io/Portafolio/
+2. Haz clic en "contacto" en la barra de navegación superior derecha
+3. Verifica que la página se desplace hasta la sección "Contacto"
+4. Haz clic en el botón "LinkedIn" de la sección "Contacto"
+5. Espera a que se abra la nueva pestaña
+
+**Resultado esperado:**
+- Se abre en una nueva pestaña la URL https://www.linkedin.com/in/alejandro-muro-151422184/
+- El perfil de LinkedIn de Alejandro Muro se visualiza correctamente
+
+## TC-11: Ver sobre mí
+
+**Pasos:**
+1. Ingresa a https://amuroqa.github.io/Portafolio/
+2. Espera a que la página cargue completamente
+3. Desplázate hacia abajo desde el header hasta la sección "Sobre mí"
+
+**Resultado esperado:**
+- Se visualiza la sección "Sobre mí" con el título correspondiente
+- Se visualiza el texto de presentación (dos párrafos sobre experiencia en QA y transición a frontend)
+- Se visualizan las badges de habilidades: HTML, CSS, JavaScript, Git y QA Testing
